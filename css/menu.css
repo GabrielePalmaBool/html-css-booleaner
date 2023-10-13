@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ }
+
+/*-------------------------- css header ------------------------------------------- */
+
+ /* background */
+ .backgroungHead {
+    background: rgb(8, 182, 240);
+ }
+
+ /* pattern */
+#pattern {
+    width: 100%;
+    height: 100px;
+	background-size: contain;
+    background-image: url("../img/pattern.png");
+}
+
+/* Logo */
+#logo {
+    width: 200px;
+    height: 100px; 
+}
+
+/*-------------------------- css main ------------------------------------------- */
+#contenitore {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 1000px;
+    position: relative;
+}
+
+#contenitore > ul {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ /* tag h1 */
+ h1{
+     font-size: 50px;
+ }
+
+  /* tag p */
+.M1p {
+    font-size: 17px;
+    font-family: 'Gabarito', cursive;
+    color: rgb(119, 115, 115);
+}
+
+ /* tag (span) del p */
+
+.M1p > .M1span {
+    color: blue;
+}
+
+
+.M2span {
+    background-color: yellow;
+}
+
+
+/* primo container */
+.Contenitore1{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 1000px;
+    background-color: rgb(3, 151, 243);
+    position: relative;
+}
+
+.Contenitore1 .M3span {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+.Contenitore1 .M4span {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+.Contenitore1 .M5span {
+	width: 57%;
+    color: white(255, 0, 0);
+    color: white;
+    position: absolute;
+}
+
+
+/* secondo container */
+.Contenitore2{
+    width: 1000px;
+    margin-left: 5px;
+    background-color: rgb(135, 202, 243);
+    position: relative;
+}
+
+.Contenitore2 .M2p {
+    display: inline-block;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom:25px;
+}
+
+.Contenitore2 .M3p {
+    display: inline-block;
+    width: 20%;
+}
+
+.Contenitore2 .M4p {
+    display: inline-block;
+    overflow-wrap: anywhere;
+    width: 57%;
+    position: absolute;
+}
+
+/* trerzo contenitore */
+.Contenitore3{
+    width: 1000px;
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.Contenitore3 .M2p {
+    display: inline-block;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom:25px;
+}
+
+.Contenitore3 .M3p {
+    display: inline-block;
+    width: 20%;
+}
+
+.Contenitore3 .M4p {
+    display: inline;
+    overflow-wrap: anywhere;
+    width: 57%;
+    position: absolute;
+}
+
+/*-------------------------- css footer ------------------------------------------- */
+
+h3 {
+    padding: 10px 10px;
+    color: rgb(146, 145, 145);
+}
+
+#img_monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+#img_monitor > h2 {
+    color: white;
+}
+
+#id_graph {
+    background-image: url("../img/graph.jpg");
+}
+
+#id_graph > h2 {
+    color: white;
+}
+
+.image {
+    width: 208px;
+    height: 160px;
+    margin: 5px 5px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
